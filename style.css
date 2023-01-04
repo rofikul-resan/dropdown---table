@@ -9,7 +9,11 @@ nav > ul{
     display: flex;
     background: #444;
     border-radius: 10px;
+    padding: 0;
+
 }
+
+
 nav a{
     color: white;
     text-decoration: none;
