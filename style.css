@@ -42,3 +42,25 @@ nav li:hover ul{
     height: 0;
     transition: all 0.5s;
 }
+/* calender style using table */
+table{
+    border: 2px solid #444;
+    border-collapse: collapse;
+    width: fit-content;
+    margin: 100px auto;
+}
+td, th{
+    border: 2px solid #444;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+td:hover {
+    color: #fff;
+    background: rgb(75, 64, 64);
+
+}
+caption{
+    font-size: 40px;
+    text-transform: capitalize;
+}
